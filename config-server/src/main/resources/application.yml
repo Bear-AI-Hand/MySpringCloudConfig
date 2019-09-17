@@ -1,10 +1,10 @@
-#http服务端口
+#http鏈嶅姟绔彛
 server:
   port: 9100
 
-#spring配置
+#spring閰嶇疆
 spring:
-  #服务名称
+  #鏈嶅姟鍚嶇О
   application:
     name: config-service
   cloud:
@@ -12,14 +12,14 @@ spring:
       server:
         git:
           uri: https://github.com/Bear-AI-Hand/MySpringCloudConfig
-          username: jun8820@aliyun.com
-          password: junjunhao99
-          # 超时时间
+          username: xxxxxxxxxxx
+          password: xxxxxxxxxxx
+          # 瓒呮椂鏃堕棿
           timeout: 5
-          # 默认分支
+          # 榛樿鍒嗘敮
           default-label: master
 
-#指定注册中心地址
+#鎸囧畾娉ㄥ唽涓績鍦板潃
 #eureka:
 #  client:
 #    serviceUrl:
