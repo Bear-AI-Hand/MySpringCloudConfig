@@ -1,6 +1,6 @@
 #product服务端口
 server:
-  port: 8777
+  port: 8772
 
 
 branch: dev
