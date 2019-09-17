@@ -1,0 +1,26 @@
+#http服务端口
+server:
+  port: 9100
+
+#spring配置
+spring:
+  #服务名称
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Bear-AI-Hand/MySpringCloudConfig
+          username: jun8820@aliyun.com
+          password: junjunhao99
+          # 超时时间
+          timeout: 5
+          # 默认分支
+          default-label: master
+
+#指定注册中心地址
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
